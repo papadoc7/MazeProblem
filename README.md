@@ -26,7 +26,7 @@ The emphasis should be on code readability and simplicity. Runtime for all of th
 The input is a maze description file in plain text.  
  1 - denotes walls
  0 - traversable passage way
- `
+ ```
 
 INPUT:
 <WIDTH> <HEIGHT><CR>
@@ -53,7 +53,7 @@ Example file:
 1 0 1 1 1 0 1 1 1 1
 1 0 1 0 0 0 0 0 0 1
 1 1 1 1 1 1 1 1 1 1
-`
+```
 
 ```sh
 OUTPUT:
@@ -67,5 +67,5 @@ OUTPUT:
 # ###X####
 # #  XXXE#
 ##########
-`
+```
 
