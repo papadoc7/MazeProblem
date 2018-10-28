@@ -1,5 +1,5 @@
-Solving a maze
-==============
+**Solving a maze**
+------------------
 
 The idea here is to write a program to solve simple mazes. The mazes are given in 
 a file and the program must read in the file, solve the maze and output the solution.
@@ -14,24 +14,19 @@ should be written to the following specification:
   - The program should be tested on the sample mazes provided
   - Output should be written to the Standard Output/Console
 
-================================================
-==  ALL the sample mazes DO have a solution!  ==
-================================================
+**ALL the sample mazes DO have a solution!**
+--------------------------------------------
 
 The emphasis should be on code readability and simplicity. Runtime for all of the sample mazes should be <30 seconds.
 
-Please email the solution in source code form, with short instructions on how to run.
+**Maze file format**
+--------------------
 
-Good luck!
-
-
-
-Maze file format
-================
-
+```sh
 The input is a maze description file in plain text.  
  1 - denotes walls
  0 - traversable passage way
+ ```
 
 INPUT:
 <WIDTH> <HEIGHT><CR>
@@ -43,6 +38,7 @@ OUTPUT:
  the maze with a path from start to end
  walls marked by '#', passages marked by ' ', path marked by 'X', start/end marked by 'S'/'E'
 
+```sh
 Example file:  
 10 10
 1 1
@@ -57,7 +53,9 @@ Example file:
 1 0 1 1 1 0 1 1 1 1
 1 0 1 0 0 0 0 0 0 1
 1 1 1 1 1 1 1 1 1 1
+```
 
+```sh
 OUTPUT:
 ##########
 #SXX     #
@@ -69,4 +67,5 @@ OUTPUT:
 # ###X####
 # #  XXXE#
 ##########
+```
 
