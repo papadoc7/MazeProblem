@@ -39,7 +39,7 @@ public class MazeProblem {
 
             long endTime = System.currentTimeMillis();
             long totalTime = endTime - startTime;
-            System.out.println("total time: " + totalTime + "ms");
+            System.out.println("Total time: " + totalTime + "ms");
         }
     }
 
